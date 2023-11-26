@@ -25,13 +25,12 @@ header {
 /* Style the navigation menu */
 nav ul {
     list-style: none;
-    text-align: right;
+    text-align: center;
 }
 
 nav ul li {
     display: inline-block;
     margin: 0 20px;
-    padding-left: 1%;
 }
 
 nav a {
