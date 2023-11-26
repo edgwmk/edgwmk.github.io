@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>edgwmk's Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="fixed">
+    <nav>
+      <ul>
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <div id="quote-container">
+        <!-- Random quote to be displayed here -->
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h1>About Me</h1>
+        <p>My name is Nozomi Mae, a student at the Ohio State University. I am currently working towards an
+          undergraduate degree in Computer Science and Engineering, with a focus in software engineering.</p>
+          <hr>
+        <p>Interests and hobbies: (Click to expand)</p>
+        <ul>
+          <li class="list-item" onclick="toggleInfo('item1')">೯ Games</li>
+          <div id="item1-info" class="additional-info">
+            I mostly stick to analog games like (Sprider and Klondike) Solitaire, Nine Men's Morris, Backgammon,
+            President, Hanafuda, Blackjack, Mancala, and UNO. I often play them with <a
+              href="https://en.wikipedia.org/wiki/Clubhouse_Games:_51_Worldwide_Classics">Clubhouse Games: 51 Worldwide
+              Classics</a> on the Nintendo Switch.
+          </div>
+          <li class="list-item" onclick="toggleInfo('item2')">೯ Reading and Literature</li>
+          <div id="item2-info" class="additional-info">
+            I love reading fictional books, though I don't have a preference towards a specific genre. Most of the books
+            I have are in Japanese (passed down from my mother), which takes me a little longer than reading in English,
+            but I prefer spending time absorbing every word and phrase offered. My mother owns a lot of picture books
+            and it's fun to read those as well!
+          </div>
+          <li class="list-item" onclick="toggleInfo('item3')">೯ Travel and Culture</li>
+          <div id="item3-info" class="additional-info">
+            I dream about travelling around Europe, with all its beautiful architecture and cultural diversities. I also
+            love going back to my motherland, Japan, because my hometown harbors many childhood memories that I hold
+            dear.
+          </div>
+          <li class="list-item" onclick="toggleInfo('item4')">೯ Education</li>
+          <div id="item4-info" class="additional-info">
+            I enjoy learning about many things, and I strive to understand the materials in my college courses.
+            Outside of school, I pay attention to world politics and international relations through a multitude of
+            media sources.
+            I also enjoy learning history to further increase my intercultural competence.
+            In my free time, I like to study German, French, and Russian, though I haven't made much progress since I
+            have been passive about this objective.
+          </div>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h1>Contact me</h1>
+        <p>Warning, still under construction! 
+          Feel free to reach out anytime :)
+        </p>
+        <ul>
+          <li>❀ Email: nmae.04@outlook.com</li>
+          <li>❀ LinkedIn: <a href="www.linkedin.com/in/edgwmk">edgwmk</a></li>
+          <li>❀ Twitter: @edgwmk</li>
+          <li>❀ Discord: @edgwmk</li>
+        </ul>
+        <hr>
+        <p>Heavily inspired by <a href="https://www.browserstack.com/guide/build-a-website-using-html-css">How to build a website using HTML and CSS</a></p>
+      </div>
+    </section>
+
+  </main>
+  <script src="script.js"></script>
+  <footer>
+    <p>© Copyright 2023 edgwmk</p>
+    </footer>
+</body>
+
+</html>
